@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "raev-project-cv"
+version = "0.1.0"
+description = "aboba"
+authors = ["Max"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+opencv-python = "^4.11.0.86"
+face-recognition = "^1.3.0"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+numpy = "^2.2.3"
+pyside6 = "^6.8.2.1"
+pyqt6 = "^6.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
